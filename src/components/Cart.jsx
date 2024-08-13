@@ -1,59 +1,55 @@
 import React from 'react'
+import { BiAccessibility , BiBuilding, BiHeart} from 'react-icons/bi';
 
 export const Cart = () => {
   return (
-    <div>
-      <h1 className="text-[40px] font-extrabold text-center bg-[#ebe6e6] pt-2 ">
-        LIGHTING YOUR NATION{" "}
-      </h1>
-      <div className="flex max-sm:flex-col max-md:flex-col xl:flex-row gap-10 max-sm:px-[50px] md:pl-1 lg:px-[80px] pt-10 bg-[#cee8ce] py-10">
-        <div className="gap-10 flex text-center ">
-          <div className="shadow-lg bg-[#f5f4f4] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-1000">
-            <img
-              className="size-[400px] max-md:size-[200px]"
-              src="/src/assets/mission-2.jpeg"
-              alt=""
-            />
-
-            <h1 className="font-merriweather text-[20px]">MISSION</h1>
-            <p className="w-[300px] md:w-[200px] py-4 pl-[10px] lg:ml-[70px] font-roboto text-[15px]">
-              With the passion that we have as an organisation, we do our best
-              to give back to the community we have been on the field for so
-              many years,
-            </p>
+    <div className="">
+      <h2 className=" text-[20px] font-merriweather text-center py-5">
+        {/* lighting your Nation */}
+      </h2>
+      <div className="flex max-sm:flex-col lg:justify-between gap-5 px-[2px] mx-8 md:mx-[13px] py-4 md:px-1 lg:mx-[50px] lg:px-[20px]">
+        <div className="bg-[blue] ">
+          <img src="" alt="" />
+          {
+            <BiAccessibility className="size-[100px] lg:size-[150px] md:size-[80px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2 bg-slate-100 rounded-full mb-4" />
+          }
+          <h1 className="font-merriweather ml-[110px] md:ml-[60px] lg:ml-[140px] md:text-[20px] lg:text-[25px] py-2">
+            PASSION
+          </h1>
+          <p className="md:w-[227px] lg:w-[400px] px-5 lg:px-10 text-[15px] font-roboto py-2">
+            we love humanity because we are derived from it
+          </p>
+          <div className="pt-2 ml-5">
+            <button className="p-2 bg-slate-500 px-4" type="button">
+              SEE MORE
+            </button>
           </div>
         </div>
-        <div className="flex text-center">
-          <div className="shadow-lg bg-[#f5f4f4] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-1000">
-            <img
-              className="size-[400px] max-md:size-[200px]"
-              src="/src/assets/passion.webp"
-              alt=""
-            />
 
-            <h1 className="font-merriweather text-[20px]">PASSION</h1>
-            <p className="w-[300px] md:w-[200px] py-4 pl-[10px] lg:ml-[70px] font-roboto text-[15px]">
-              With the passion that we have as an organisation, we do our best
-              to give back to the community we have been on the field for so
-              many years ,
-            </p>
-          </div>
+        <div className="bg-[blue]">
+          <img src="" alt="" />
+          {
+            <BiBuilding className="size-[100px] md:size-[80px] lg:size-[150px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2  bg-slate-100 rounded-full mb-4" />
+          }
+          <h1 className=" font-merriweather ml-[110px]  md:ml-[60px] lg:ml-[140px] md:text-[20px] lg:text-[25px] py-2">
+            MISSION
+          </h1>
+          <p className="md:w-[227px] lg:w-[400px] px-5 lg:px-5 text-[15px] font-roboto">
+            To Empower the boy child, Giving Neccesary Care to the Community
+          </p>
         </div>
-        <div className="flex text-center">
-          <div className="shadow-lg bg-[#f5f4f4] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-500 ">
-            <img
-              className="size-[400px] max-md:size-[200px]"
-              src="/src/assets/vision.jpg"
-              alt=""
-            />
 
-            <h1 className="font-merriweather text-[20px]">VISION</h1>
-            <p className="w-[300px] md:w-[200px] py-4 pl-[10px] lg:ml-[70px] font-roboto text-[15px]">
-              With the passion that we have as an organisation, we do our best
-              to give back to the community we have been on the field for so
-              many years ,
-            </p>
-          </div>
+        <div className="bg-[blue]">
+          <img src="" alt="" />
+          {
+            <BiHeart className="size-[100px] md:size-[80px] lg:size-[150px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2 bg-slate-100 rounded-full mb-4" />
+          }
+          <h1 className="ml-[120px] md:ml-[70px] lg:ml-[50px] py-2 font-merriweather md:text-[20px] lg:text-[25px]">
+            VISION
+          </h1>
+          <p className="md:w-[227px] lg:w-[400px] px-5 lg:px-5 text-[15px]">
+            we love humanity because we are derived from it
+          </p>
         </div>
       </div>
     </div>

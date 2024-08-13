@@ -5,7 +5,7 @@ import "react-awesome-slider/dist/styles.css";
 export const Hero = () => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
-    <div className="w-[100%] h-[600px] overflow-hidden ]">
+    <div className="w-[100%] sm:h-[500px] md:h-[400px] xl:h-[600px] overflow-hidden ]">
       <AutoplaySlider
         play={true}
         cancelOnInteraction={false} // should stop playing on user interaction

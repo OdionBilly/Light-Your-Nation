@@ -5,7 +5,7 @@ import { BiMenu } from 'react-icons/bi';
 export const Navbar = () => {
   return (
     <div>
-      <nav className="flex justify-between items-center font-bold text-[15px] py-6 px-10 bg-[#0f0f5f] text-[#f1f1f1]">
+      <nav className="flex justify-between items-center font-bold text-[15px] py-6 max-sm:px-10 px-[100px] bg-[#0f0f5f] text-[#f1f1f1]">
         <img
           className="w-[40px] lg:w-[50px] rounded-full"
           src="/src/assets/logo.jpeg"
