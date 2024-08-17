@@ -3,12 +3,12 @@ import { BiAccessibility , BiBuilding, BiHeart} from 'react-icons/bi';
 
 export const Cart = () => {
   return (
-    <div className=" mt-10">
-      <div className="">
-        <div className="flex max-sm:flex-col">
+    <div className=" mt-10 ">
+      <div className="mt-10">
+        <div className="flex max-sm:flex-col mt-10">
           <div className="w-[100%]">
             <h1 className="text-center font-merriweather text-[30px] lg:mt-10">
-              LIGHTING YOUR NATION
+              LIGHT YOUR NATION
             </h1>
             <p className="mt-[10px] text-center font-roboto sm:text-[15px] lg:text-[25px] lg:px-10">
               Every contribution fuels hope, transforms lives, and ignites a
@@ -18,16 +18,17 @@ export const Cart = () => {
               time."
             </p>
           </div>
+          
           <div className="w-[100%]">
-            <img src="/src/assets/Hero-image-2.png" alt="" />
+            <img src="/src/assets/Hero-image-3.png" alt="" />
           </div>
         </div>
       </div>
 
-      <h2 className=" text-[20px] font-merriweather text-center py-5">
-        {/* lighting your Nation */}
+      <h2 className=" text-[20px] font-merriweather text-center py-5 bg-slate-500">
+        
       </h2>
-      <div className="flex max-sm:flex-col lg:justify-between gap-5 px-[2px] mx-8 md:mx-[13px] py-4 md:px-1 lg:mx-[50px] lg:px-[20px]">
+      <div className="flex max-sm:flex-col lg:justify-between gap-5 px-[2px] mx-8 md:mx-[13px] py-4 md:px-1 lg:mx-[50px] lg:px-[20px] ">
         <div className="shadow-lg ">
           <img src="" alt="" />
           {

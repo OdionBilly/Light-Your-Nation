@@ -19,7 +19,7 @@ export const Weare = () => {
           community. To date we have adopted 15 widows families whom we
           regularly supply with food items and other households amenities.
         </p>
-        <div className="w-[100%]">
+        <div className="w-[100%] shadow-lg">
           <img src="/src/assets/slide-image-1.png" alt="" />
         </div>
       </div>
