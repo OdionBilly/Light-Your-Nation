@@ -12,7 +12,7 @@ export const Values = () => {
         <div className='max-sm:py-5 lg:py-10 text-[#fff]'>
           <h1 className='font-merriweather sm:text-[20px] lg:text-[35px] text-center'> Objectives</h1>
           <p className='box shadow-lg max-sm:mt-4 px-10'>
-            <ol>
+            <ol className='font-roboto'>
               <li>
                 * To raise young men into dignified men of integrity for
                 strongfamilies and healthy communities.
@@ -36,7 +36,7 @@ export const Values = () => {
         </div>
       </div>
 
-      
+
     </div>
   );
 }
