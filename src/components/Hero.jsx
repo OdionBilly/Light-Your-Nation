@@ -3,6 +3,7 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 import "react-awesome-slider/dist/styles.css";
 
 export const Hero = () => {
+
     const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <div className="w-[100%] sm:h-[500px] md:h-[400px] xl:h-[600px] overflow-hidden ]">
@@ -35,6 +36,8 @@ export const Hero = () => {
           </button>
         </div> */}
       {/* </div> */}
+
     </div>
+
   );
 };

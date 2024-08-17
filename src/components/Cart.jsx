@@ -3,12 +3,32 @@ import { BiAccessibility , BiBuilding, BiHeart} from 'react-icons/bi';
 
 export const Cart = () => {
   return (
-    <div className="">
+    <div className=" mt-10">
+      <div className="">
+        <div className="flex max-sm:flex-col">
+          <div className="w-[100%]">
+            <h1 className="text-center font-merriweather text-[30px] lg:mt-10">
+              LIGHTING YOUR NATION
+            </h1>
+            <p className="mt-[10px] text-center font-roboto sm:text-[15px] lg:text-[25px] lg:px-10">
+              Every contribution fuels hope, transforms lives, and ignites a
+              brighter future. Your support can turn challenges into triumphs
+              and dreams into realities. Join us in making a lasting
+              impact—because together, we can change the world, one life at a
+              time."
+            </p>
+          </div>
+          <div className="w-[100%]">
+            <img src="/src/assets/Hero-image-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+
       <h2 className=" text-[20px] font-merriweather text-center py-5">
         {/* lighting your Nation */}
       </h2>
       <div className="flex max-sm:flex-col lg:justify-between gap-5 px-[2px] mx-8 md:mx-[13px] py-4 md:px-1 lg:mx-[50px] lg:px-[20px]">
-        <div className="bg-[blue] ">
+        <div className="shadow-lg ">
           <img src="" alt="" />
           {
             <BiAccessibility className="size-[100px] lg:size-[150px] md:size-[80px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2 bg-slate-100 rounded-full mb-4" />
@@ -17,16 +37,17 @@ export const Cart = () => {
             PASSION
           </h1>
           <p className="md:w-[227px] lg:w-[400px] px-5 lg:px-10 text-[15px] font-roboto py-2">
-            we love humanity because we are derived from it
+            Empowering dreams,Building future by Nuturing young Minds as well
+            helping the Needy, Less privileges in the various Communities
           </p>
-          <div className="pt-2 ml-5">
-            <button className="p-2 bg-slate-500 px-4" type="button">
+          <div className="pt-2 ml-5 text-[#fff]">
+            <button className="p-2 bg-[#2525aa] px-4 hover:bg-[#4d4dad]" type="button">
               SEE MORE
             </button>
           </div>
         </div>
 
-        <div className="bg-[blue]">
+        <div className="shadow-lg">
           <img src="" alt="" />
           {
             <BiBuilding className="size-[100px] md:size-[80px] lg:size-[150px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2  bg-slate-100 rounded-full mb-4" />
@@ -35,20 +56,24 @@ export const Cart = () => {
             MISSION
           </h1>
           <p className="md:w-[227px] lg:w-[400px] px-5 lg:px-5 text-[15px] font-roboto">
-            To Empower the boy child, Giving Neccesary Care to the Community
+            To Equip individuals Boy/Girl with the proper Skills, necessities
+            and stronger cognitive Abilities in Fostering prosperity in the
+            African Communities .
           </p>
         </div>
 
-        <div className="bg-[blue]">
+        <div className="shadow-lg">
           <img src="" alt="" />
           {
             <BiHeart className="size-[100px] md:size-[80px] lg:size-[150px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2 bg-slate-100 rounded-full mb-4" />
           }
-          <h1 className="ml-[120px] md:ml-[70px] lg:ml-[50px] py-2 font-merriweather md:text-[20px] lg:text-[25px]">
+          <h1 className="ml-[120px] md:ml-[70px] lg:ml-[140px] py-2 font-merriweather md:text-[20px] lg:text-[25px]">
             VISION
           </h1>
           <p className="md:w-[227px] lg:w-[400px] px-5 lg:px-5 text-[15px]">
-            we love humanity because we are derived from it
+            To Empower Africa And the rest of the world with hope . We believe
+            through our community campeign which focuses on Empowerment, Lives
+            will be transformed.
           </p>
         </div>
       </div>
