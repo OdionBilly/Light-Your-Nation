@@ -2,16 +2,16 @@ import React from 'react'
 
 export const Objective = () => {
   return (
-    <div>
-      <div className="">
-        <div className="flex max-sm:flex-col">
-          <div className="lg:w-[100%] lg:mt-[100px] font-roboto">
-            <h1 className="text-center text-[20px] lg:text-[38px] font-merriweather">
+    <div className="">
+      <div className="max-sm:mt-5">
+        <div className="flex max-sm:flex-col justify-between md:flex-row-reverse lg:flex-row  md:gap-10 lg:gap-10 px-5 w-[100%] mt-5 md:mt-10 lg:mt-[10px]">
+          <div className="lg:w-[100%] sm:mt-5 lg:mt-[180px] font-roboto ">
+            <h1 className="text-center text-[20px] md:text-[22px] lg:text-[38px] font-merriweather py-4 md:py-0 lg:py-5 ">
               No One Is Left Behind
             </h1>
-            <p className="shadow-lg px-5 lg:px-10  py-10">
-              Our Mission and vision has driven us to the right path, “In the heart
-              of rural communities, where the land stretches wide and the
+            <p className="shadow-lg px-2 md:px-2 lg:px-[10px] lg:ml-1 border-2 py-10 md:py-0 md:w-[370px] lg:w-[100%] max-sm:ml-[-10px]">
+              Our Mission and vision has driven us to the right path, “In the
+              heart of rural communities, where the land stretches wide and the
               horizon seems endless, there’s a quiet struggle that often goes
               unnoticed. Here, life moves at a different pace, and the
               challenges are as vast as the fields. Yet, it’s in these very
@@ -19,24 +19,32 @@ export const Objective = () => {
             </p>
           </div>
 
-          <div className="w-[100%]">
+          <div className="w-[100%] md:mt-9">
             <img src="/src/assets/community-image-1.jpeg" alt="" />
           </div>
         </div>
 
-        <div>
-            
-          <p>
-            Imagine a small village where access to clean water is a daily
-            challenge. By setting up a well, we’re not just providing a
-            resource; we’re giving hope and health to families who have long
-            walked miles for a basic necessity. Or picture a school in need of
-            supplies—by donating books and educational materials, we’re opening
-            doors to a brighter future for children who dream of a world beyond
-            their small town.
-          </p>
+        <div className="flex max-sm:flex-col lg:flex-row-reverse md:gap-10 lg:gap-10 px-5 md:pt-10">
+          <div className="lg:w-[100%] font-roboto lg:mt-[100px]">
+            <h1 className="text-center text-[20] md:text-[22px] lg:text-[38px] font-merriweather py-5 md:py-2 lg:py-5">
+              Widows Empowerment And Aid
+            </h1>
+            <p className="px-5 md:px-2 lg:px-[10px] shadow-lg border-2 py-10 md:py-0 md:w-[370px] lg:w-[100%] ">
+              Imagine a small village where access to clean water is a daily
+              challenge. By setting up a well, we’re not just providing a
+              resource; we’re giving hope and health to families who have long
+              walked miles for a basic necessity. Or picture a school in need of
+              supplies—by donating books and educational materials, we’re
+              opening doors to a brighter future for children who dream of a
+              world beyond their small town.
+            </p>
+          </div>
+          <div className="w-[100%] mt-10 md:mt-8">
+            <img src="/src/assets/widows-image-3.jpeg" alt="" />
+          </div>
         </div>
-        <div>
+
+        <div className='bg-[green] mt-10'>
           <p>
             Helping the needy in these rural areas isn’t just about charity;
             it’s about recognizing our shared humanity and the impact of our

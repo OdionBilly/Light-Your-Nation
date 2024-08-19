@@ -3,16 +3,19 @@ import videoBg from "../assets/vd.mp4"
 
 export const Values = () => {
   return (
-    <div className=''>
-      <div className='bg-slate-500 flex max-sm:flex-col lg:mt-10'>
-        <div className=" lg:w-[1000px]">
+    <div className="bg-[#070737] md:p-1">
+      <div className="flex max-sm:flex-col max-md:flex-col sm:mt-0  lg:mt-0 lg:pt-1 px-0 lg:py-5">
+        <div className="lg:w-[1000px] md:mt-[90px] lg:mt-[10px] md:ml-5">
           <video src={videoBg} autoPlay loop muted />
         </div>
 
-        <div className='max-sm:py-5 lg:py-10 text-[#fff]'>
-          <h1 className='font-merriweather sm:text-[20px] lg:text-[35px] text-center'> Objectives</h1>
-          <p className='box shadow-lg max-sm:mt-4 px-10'>
-            <ol className='font-roboto'>
+        <div className="max-sm:py-5 lg:py-10 bg-[#070737] md:mt-0">
+          <h1 className="font-merriweather sm:text-[20px] md:text-[30px] lg:text-[35px] text-center text-[#fff] lg:mt-[10px]">
+            {" "}
+            Objectives
+          </h1>
+          <p className="md:w-[369px] lg:w-[80%] box shadow-lg max-sm:mt-4 px-10 py-2 lg:py-5 text-[#fff]">
+            <ol className="font-roboto">
               <li>
                 * To raise young men into dignified men of integrity for
                 strongfamilies and healthy communities.
@@ -35,8 +38,6 @@ export const Values = () => {
           </p>
         </div>
       </div>
-
-
     </div>
   );
 }
