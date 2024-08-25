@@ -44,16 +44,25 @@ export const Objective = () => {
           </div>
         </div>
 
-        <div className='bg-[green] mt-10'>
-          <p>
-            Helping the needy in these rural areas isn’t just about charity;
-            it’s about recognizing our shared humanity and the impact of our
-            actions. Each contribution, whether big or small, builds a bridge
-            between worlds, transforming lives with the simple yet powerful act
-            of caring. Together, we can ensure that even in the most remote
-            corners, everyone has a chance to thrive and hope for a better
-            tomorrow.”*
-          </p>
+        <div className=" mt-10 lg:ml-5">
+          <div className="py-5">
+            <h1 className=" text-[20] md:text-[22px] lg:text-[30px] font-merriweather">
+              Youth Empowerment and Drugs Eradigation{" "}
+            </h1>
+
+            <p className="px-2 font-roboto lg:w-[50%] py-5 shadow-lg border-2">
+              Helping the needy in these rural areas isn’t just about charity;
+              it’s about recognizing our shared humanity and the impact of our
+              actions. Each contribution, whether big or small, builds a bridge
+              between worlds, transforming lives with the simple yet powerful
+              act of caring. Together, we can ensure that even in the most
+              remote corners, everyone has a chance to thrive and hope for a
+              better tomorrow.”
+            </p>
+          </div>
+          <div>
+            <img src="" alt="" />
+          </div>
         </div>
       </div>
     </div>

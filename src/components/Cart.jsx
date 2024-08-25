@@ -25,8 +25,8 @@ export const Cart = () => {
         </div>
       </div>
 
-      <h2 className=" text-[20px] font-merriweather text-center py-5 bg-slate-500">
-        
+      <h2 className=" text-[20px] font-merriweather text-center py-5 ">
+        LIGHT YOUR NATION
       </h2>
       <div className="flex max-sm:flex-col lg:justify-between gap-5 px-[2px] mx-8 md:mx-[13px] py-4 md:px-1 lg:mx-[50px] lg:px-[20px] ">
         <div className="shadow-lg ">

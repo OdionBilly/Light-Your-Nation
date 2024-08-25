@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink} from 'react-router-dom';
+import { NavLink ,Link} from 'react-router-dom';
 import { BiMenu } from 'react-icons/bi';
 
 export const Navbar = () => {
@@ -46,7 +46,9 @@ export const Navbar = () => {
           </NavLink>
         </ul>
         <div className=" flex flex-col-1 justify-center gap-4 max-sm:hidden max-lg:hidden">
-          <button className="max-sm:px-6 px-10 lg:py-2 bg-[#070737] text-[#f1f1f1] border-2 border-slate-300 hover:bg-[#f1f1f1] hover:text-[#0f0f5f] sm:text-[13px] text-[15px]">
+          <button 
+          onClick={()=> }
+          className="max-sm:px-6 px-10 lg:py-2 bg-[#070737] text-[#f1f1f1] border-2 border-slate-300 hover:bg-[#f1f1f1] hover:text-[#0f0f5f] sm:text-[13px] text-[15px]">
             Donate
           </button>
 
