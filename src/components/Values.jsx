@@ -1,5 +1,5 @@
 import React from 'react'
-import videoBg from "../assets/vd.mp4"
+import videoBg from "../assets/vid3.mp4"
 
 export const Values = () => {
   return (

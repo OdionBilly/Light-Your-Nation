@@ -4,13 +4,13 @@ import { BiAccessibility , BiBuilding, BiHeart} from 'react-icons/bi';
 export const Cart = () => {
   return (
     <div className=" mt-10 ">
-      <div className="mt-10">
+      <div className="mt-10 bg-slate-400">
         <div className="flex max-sm:flex-col mt-10">
           <div className="w-[100%]">
-            <h1 className="text-center font-merriweather text-[30px] lg:mt-10">
+            <h1 className="text-center font-merriweather text-[30px] md:text-[40px] lg:text-[35px] lg:mt-10">
               LIGHT YOUR NATION
             </h1>
-            <p className="mt-[10px] text-center font-roboto sm:text-[15px] lg:text-[25px] lg:px-10">
+            <p className="mt-[10px] shadow-lg  text-center font-roboto sm:text-[15px] lg:text-[25px] mx-3 max-sm:px-6 md:px-10 lg:px-10">
               Every contribution fuels hope, transforms lives, and ignites a
               brighter future. Your support can turn challenges into triumphs
               and dreams into realities. Join us in making a lasting
@@ -25,14 +25,16 @@ export const Cart = () => {
         </div>
       </div>
 
-      <h2 className=" text-[20px] font-merriweather text-center py-5 ">
+      <h2 className=" text-[20px] md:text-[30px] lg:text-[35px] font-merriweather text-center py-5 ">
         LIGHT YOUR NATION
       </h2>
+
+      {/* passion Section */}
       <div className="flex max-sm:flex-col lg:justify-between gap-5 px-[2px] mx-8 md:mx-[13px] py-4 md:px-1 lg:mx-[50px] lg:px-[20px] ">
         <div className="shadow-lg ">
           <img src="" alt="" />
           {
-            <BiAccessibility className="size-[100px] lg:size-[150px] md:size-[80px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2 bg-slate-100 rounded-full mb-4" />
+            <BiAccessibility className="size-[100px] lg:size-[150px] md:size-[80px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2 bg-slate-500 rounded-full mb-4" />
           }
           <h1 className="font-merriweather ml-[110px] md:ml-[60px] lg:ml-[140px] md:text-[20px] lg:text-[25px] py-2">
             PASSION
@@ -51,7 +53,7 @@ export const Cart = () => {
         <div className="shadow-lg">
           <img src="" alt="" />
           {
-            <BiBuilding className="size-[100px] md:size-[80px] lg:size-[150px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2  bg-slate-100 rounded-full mb-4" />
+            <BiBuilding className="size-[100px] md:size-[80px] lg:size-[150px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2  bg-slate-500 rounded-full mb-4" />
           }
           <h1 className=" font-merriweather ml-[110px]  md:ml-[60px] lg:ml-[140px] md:text-[20px] lg:text-[25px] py-2">
             MISSION
@@ -66,7 +68,7 @@ export const Cart = () => {
         <div className="shadow-lg">
           <img src="" alt="" />
           {
-            <BiHeart className="size-[100px] md:size-[80px] lg:size-[150px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2 bg-slate-100 rounded-full mb-4" />
+            <BiHeart className="size-[100px] md:size-[80px] lg:size-[150px] ml-[100px] md:ml-[70px] lg:ml-[120px] p-2 bg-slate-500 rounded-full mb-4" />
           }
           <h1 className="ml-[120px] md:ml-[70px] lg:ml-[140px] py-2 font-merriweather md:text-[20px] lg:text-[25px]">
             VISION

@@ -43,7 +43,7 @@ export const Form = () => {
 
       <div className='text-center px-5'>
         <p>
-          Your Donation matters, and it has a long way to put a smile on someone
+          Your Donation Counts, Join Us to Lightened The Nation
         </p>
       </div>
     </div>
