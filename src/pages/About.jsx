@@ -9,7 +9,6 @@ export const About = () => {
       <Navbar />
       <Weare/>
       <Footer/>
-
     </div>
   );
 }

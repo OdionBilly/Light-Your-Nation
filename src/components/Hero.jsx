@@ -7,7 +7,7 @@ export const Hero = () => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
     <div className="">
-      <div className="relative">
+      <div className="">
         <div className="w-[100%] sm:h-[500px] md:h-[400px] xl:h-[600px] overflow-hidden ">
           <AutoplaySlider
             play={true}
@@ -39,10 +39,6 @@ export const Hero = () => {
           </button>
         </div> */}
           {/* </div> */}
-        </div>
-        <div className="absolute left-10 top-[20px] z-10">
-          <p className="">Blessed day</p>
-          <p> life is the Value you give it  </p>
         </div>
       </div>
     </div>

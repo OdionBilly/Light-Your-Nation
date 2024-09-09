@@ -5,6 +5,7 @@ import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
 import { Cart } from '../components/Cart'
 import { Footer } from '../components/Footer'
+import { Gallery } from '../components/Gallery';
 
 export const Home = () => {
   return (
@@ -37,18 +38,18 @@ export const Home = () => {
       {/* Values */}
       <div className="sm:ml-0 md:ml-[10px]  lg:ml-0">
         <div className="mt-10">
-          <div className="flex max-sm:flex-col max-md:flex-col sm:mt-0 gap-5 md:gap-1 lg:gap-1 lg:mt-0 lg:pt-1 px-0 lg:py-5">
+          <div className="flex max-sm:flex-col max-md:flex-col sm:mt-0 gap-0 md:gap-1 lg:gap-1 lg:mt-0 lg:pt-1 px-0 lg:py-5">
             <div className="lg:w-[1000px] md:mt-[70px] lg:mt-[10px] md:ml-2 px-5">
-              <video src={videoBg2} autoPlay loop muted />
+              <video src={videoBg2} controls muted />
             </div>
 
             <div className="max-sm:py-5 lg:py-10  md:mt-0">
-              <h1 className="font-merriweather sm:text-[20px] md:text-[30px] lg:text-[35px] text-center  lg:mt-[10px]">
+              <h1 className="font-merriweather sm:text-[20px] md:text-[30px] lg:text-[35px] text-center  lg:mt-[9px]">
                 {" "}
                 Our privious projects
               </h1>
               <p className="md:w-[369px] lg:w-[80%] box shadow-lg max-sm:mt-4 max-sm:px-5 py-2 lg:py-5">
-                <ul className="font-roboto">
+                <ul className="font-roboto px-3">
                   <li>
                     Skill acquisition program in 'shoe making and leather
                     production' that impact 20+ young people and widows.
@@ -72,7 +73,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-  
+    <Gallery/>
       <Footer />
     </div>
   );

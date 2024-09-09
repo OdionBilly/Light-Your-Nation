@@ -6,7 +6,7 @@ import { BsInstagram, BsFacebook, BsLinkedin } from "react-icons/bs";
 export const Footer = () => {
   return (
     <div>
-      <div className=" bg-[#070737] text-[#f1f1f1] mt-10 flex max-sm:flex-col justify-around align-baseline py-10">
+      <div className=" bg-[#070737] text-[#f1f1f1] py-10 flex max-sm:flex-col justify-around align-baseline">
         <ul className="max-sm:gap-3 gap-4 flex flex-col max-sm:items-center  font-regular text-[15px]">
           <Link to="/">
             <li>HOME</li>
