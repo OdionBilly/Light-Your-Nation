@@ -31,7 +31,7 @@ export const Form = () => {
             />
           </form>
           <button
-            className=" ml-[235px] px-2 text-[14px]  border-b-[0.1px] mt-5"
+            className=" ml-[235px] px-2 text-[14px]  border-b-[0.1px] mt-5 py-3 pb-3"
             type="button"
           >
             SEND MESSAGE
@@ -42,7 +42,7 @@ export const Form = () => {
       {/*Section 2  */}
 
       <div className='text-center px-5'>
-        <p>
+        <p className='text-left px-5 md:px-10 lg:px-[89px] text-[25px] text-[#fff]'>
           Your Donation Counts, Join Us to Lightened The Nation
         </p>
       </div>

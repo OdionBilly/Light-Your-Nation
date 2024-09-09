@@ -15,7 +15,7 @@ export const Navbar = () => {
           alt=""
         />
         <ul
-          className={`max-sm:gap-2 flex max-sm:flex-col max-sm:absolute max-sm:top-[87px] max-sm:items-center z-10 max-sm:bg-[#070737] max-sm:left-[200px] max-sm:w-[190px] max-sm:h-[150px] md:gap-4 lg:gap-10 md:pl-[170px] font-roboto ${
+          className={`max-sm:hidden max-sm:gap-2 flex max-sm:flex-col max-sm:absolute max-sm:top-[87px] max-sm:items-center z-10 max-sm:bg-[#070737] max-sm:left-[200px] max-sm:w-[190px] max-sm:h-[150px] md:gap-4 lg:gap-10 md:pl-[170px] font-roboto ${
             setIsOpen ? "top-[120px]" : "top-[490px]"
           }`}
         >
@@ -46,18 +46,15 @@ export const Navbar = () => {
           <NavLink
             to="/Contact"
             className={({ isActive }) =>
-              isActive ? "text-[blue]" : "nav-link"
+              isActive ? " text-[blue] " : "nav-link"
             }
           >
             <li className="max-sm:text-[12px]">CONTACT</li>
           </NavLink>
         </ul>
-        <div className=" max-sm:items-center max-sm:z-30 max-sm:absolute top-[190px] max-sm:bg-[#070737] max-sm:py-4 max-sm:w-[190px] max-sm:h-[100px] left-[200px] flex max-sm:flex-col  justify-center gap-4 ">
-          <button
-            // onClick={()=> }
-            className="max-sm:px-1 max-sm:py-1 max-sm:w-[80px] px-10 lg:py-2 bg-[#070737] text-[#f1f1f1] border-2 border-slate-300 hover:bg-[#f1f1f1] hover:text-[#0f0f5f] max-sm:text-[10px] text-[15px]"
-          >
-            Donate
+        <div className="max-sm:hidden max-sm:items-center max-sm:z-30 max-sm:absolute top-[190px] max-sm:bg-[#070737] max-sm:py-4 max-sm:w-[190px] max-sm:h-[100px] left-[200px] flex max-sm:flex-col  justify-center gap-4 ">
+          <button className="max-sm:px-1 max-sm:py-1 max-sm:w-[80px] px-10 lg:py-2 bg-[#070737] text-[#f1f1f1] border-2 border-slate-300 hover:bg-[#f1f1f1] hover:text-[#0f0f5f] max-sm:text-[10px] text-[15px]">
+            <NavLink to="/Donate">Donate</NavLink>
           </button>
 
           <button className="max-sm:px-1 max-sm:py-1 max-sm:w-[80px] px-10 lg:py-2 bg-[#f1f1f1] text-[#0f0f5f] hover:bg-[#070737] border-2 border-slate-300 hover:text-[#f1f1f1] max-sm:text-[10px] text-[15px]">

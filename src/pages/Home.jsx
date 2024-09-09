@@ -12,7 +12,6 @@ export const Home = () => {
       <Navbar />
       <Hero />
       <Cart />
-
       <div>
         <div className="flex max-sm:flex-col justify-between md:flex-row-reverse lg:flex-row  md:gap-10 lg:gap-10 px-5 w-[100%] mt-5 md:mt-10 lg:mt-[10px]">
           <div className="lg:w-[100%] sm:mt-5 lg:mt-[180px] font-roboto ">

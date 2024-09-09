@@ -5,7 +5,7 @@ import { Form } from '../components/Form'
 
 export const Contact = () => {
   return (
-    <div className=''>
+    <div className='bg-green-900'>
         <Navbar/>
         <Form/>
         <Footer/>

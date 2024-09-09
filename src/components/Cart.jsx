@@ -3,8 +3,8 @@ import { BiAccessibility , BiBuilding, BiHeart} from 'react-icons/bi';
 
 export const Cart = () => {
   return (
-    <div className=" mt-10 ">
-      <div className="mt-10 bg-slate-400">
+    <div className="mt-10">
+      <div className="mt-[-40px] bg-slate-400">
         <div className="flex max-sm:flex-col mt-10">
           <div className="w-[100%]">
             <h1 className="text-center font-merriweather text-[30px] md:text-[40px] lg:text-[35px] lg:mt-10">

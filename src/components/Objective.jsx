@@ -7,7 +7,7 @@ export const Objective = () => {
         <div className="flex max-sm:flex-col justify-between md:flex-row-reverse lg:flex-row  md:gap-10 lg:gap-10 px-5 w-[100%] mt-5 md:mt-10 lg:mt-[10px]">
           <div className="lg:w-[100%] sm:mt-5 lg:mt-[180px] font-roboto ">
             <h1 className="text-center text-[20px] md:text-[22px] lg:text-[38px] font-merriweather py-4 md:py-0 lg:py-5 ">
-              No One Is Left Behind
+              Boy Child Advocay
             </h1>
             <p className="shadow-lg px-2 md:px-2 lg:px-[10px] lg:ml-1 border-2 py-10 md:py-0 md:w-[370px] lg:w-[100%] max-sm:ml-[-10px]">
               Our Mission and vision has driven us to the right path, “In the
@@ -33,10 +33,9 @@ export const Objective = () => {
               Imagine a small village where access to clean water is a daily
               challenge. By setting up a well, we’re not just providing a
               resource; we’re giving hope and health to families who have long
-              walked miles for a basic necessity. Or picture a school in need of
-              supplies—by donating books and educational materials, we’re
-              opening doors to a brighter future for children who dream of a
-              world beyond their small town.
+              walked miles for a basic necessity. To date we have adopted 15
+              widows families whom we regularly supply with food items and other
+              households amenities.
             </p>
           </div>
           <div className="w-[100%] mt-10 md:mt-8">

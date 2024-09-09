@@ -6,22 +6,25 @@ export const Hero = () => {
 
     const AutoplaySlider = withAutoplay(AwesomeSlider);
   return (
-    <div className="w-[100%] sm:h-[500px] md:h-[400px] xl:h-[600px] overflow-hidden ]">
-      <AutoplaySlider
-        play={true}
-        cancelOnInteraction={false} // should stop playing on user interaction
-        interval={4000}
-      >
-        <div data-src="/src/assets/slider-image/image-1.jpg" />
-        <div data-src="/src/assets/slider-image/image-2.jpg" />
-        <div data-src="/src/assets/slider-image/image-3.jpg" />
-        <div data-src="/src/assets/slider-image/image-4.jpg" />
-        <div data-src="/src/assets/slider-image/image-5.jpg" />
-        <div data-src="/src/assets/slider-image/image-6.jpg" />
-        <div data-src="/src/assets/slider-image/image-7.jpg" />
-      </AutoplaySlider>
+    <div className="">
+      <div className="relative">
+        <div className="w-[100%] sm:h-[500px] md:h-[400px] xl:h-[600px] overflow-hidden ">
+          <AutoplaySlider
+            play={true}
+            cancelOnInteraction={false} // should stop playing on user interaction
+            interval={3000}
+            // animation="slide"
+          >
+            <div data-src="/src/assets/slider-image/image-1.jpg" />
+            <div data-src="/src/assets/slider-image/image-2.jpg" />
+            <div data-src="/src/assets/slider-image/image-3.jpg" />
+            <div data-src="/src/assets/slider-image/image-4.jpg" />
+            <div data-src="/src/assets/slider-image/image-5.jpg" />
+            <div data-src="/src/assets/slider-image/image-6.jpg" />
+            <div data-src="/src/assets/slider-image/image-7.jpg" />
+          </AutoplaySlider>
 
-      {/* <div className="text-left w-full py-4 pt-10 pl-12">
+          {/* <div className="text-left w-full py-4 pt-10 pl-12">
         <div>
           <h1 className="text-[50px] font-extrabold ">LIGHTING YOUR NATION </h1>
           <p className="w-[400px] py-4">
@@ -35,9 +38,13 @@ export const Hero = () => {
             SEE MORE
           </button>
         </div> */}
-      {/* </div> */}
-
+          {/* </div> */}
+        </div>
+        <div className="absolute left-10 top-[20px] z-10">
+          <p className="">Blessed day</p>
+          <p> life is the Value you give it  </p>
+        </div>
+      </div>
     </div>
-
   );
 };
