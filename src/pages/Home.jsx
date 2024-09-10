@@ -5,7 +5,6 @@ import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
 import { Cart } from '../components/Cart'
 import { Footer } from '../components/Footer'
-import { Gallery } from '../components/Gallery';
 
 export const Home = () => {
   return (
@@ -73,7 +72,6 @@ export const Home = () => {
           </div>
         </div>
       </div>
-    <Gallery/>
       <Footer />
     </div>
   );
