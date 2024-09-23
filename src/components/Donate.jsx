@@ -7,11 +7,11 @@ export const Donate = () => {
     <div className="overflow-hidden">
       <Navbar />
       <div>
-        <div className="hero bg-base-200 min-h-screen px-[100px]">
+        <div className="hero bg-base-200 min-h-screen px-[100px] mt-[99px]">
           <div className="hero-content flex-col lg:flex-row">
             <div>
               <div>
-                <h1 className="text-5xl font-bold">kindly Donate !</h1>
+                <h1 className="text-5xl font-bold max-sm:text-[40px]">kindly Donate !</h1>
               </div>
             </div>
           </div>

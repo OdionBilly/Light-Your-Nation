@@ -8,6 +8,9 @@ export default {
         roboto: ["Roboto", "sans - serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      backgroundImage:{
+        'desktop-image': " url('/src/assets/background-image.jpg')"
+      },
     },
   },
   plugins: [],

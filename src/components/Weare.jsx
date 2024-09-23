@@ -2,12 +2,12 @@
 export const Weare = () => {
 
   return (
-    <div className=" bg-[#070737]">
-      <h1 className="py-2 font-merriweather text-[#fff] text-[30px] text-left lg:text-[48px] ml-[50px] lg:ml-20">
-        A Brief History{" "}
-      </h1>{" "}
+    <div className="bg-[#070737] pt-[110px] xl:pt-[150px] relative ">
+      <h1 className="z-40 font-merriweather  text-[#fff] text-[30px] text-left lg:text-[48px] ml-[60px] lg:ml-[100px]">
+        A Brief History
+      </h1>
       <div className="flex justify-between align-baseline max-sm:flex-col text-[#fff] ">
-        <p className=" lg:text-[20px] ml-0 lg:ml-[80px] px-5 lg:px-5 mt-4 w-[100%]  py-10 lg:py-[70px]">
+        <p className=" lg:text-[20px] ml-0 lg:ml-[80px] px-5 lg:px-5 mt-4 w-[100%] py-5   lg:py-[20px]">
           Light your nation has it's Inception back in the year 2020, where the
           idea to bring together and mentor young people was birthed. The
           training focused on harnessing the power of the mind to dignifying the
@@ -69,7 +69,6 @@ export const Weare = () => {
             alt=""
           />
         </div>
-      
       </div>
     </div>
   );

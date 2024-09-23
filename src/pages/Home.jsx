@@ -5,16 +5,19 @@ import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
 import { Cart } from '../components/Cart'
 import { Footer } from '../components/Footer'
+import { Testimonia } from '../components/Testimonia';
 
 export const Home = () => {
   return (
-    <div>
+    <div className="">
       <Navbar />
       <Hero />
-      <Cart />
+      <div className=" ">
+        <Cart />
+      </div>
       <div>
         <div className="flex max-sm:flex-col justify-between md:flex-row-reverse lg:flex-row  md:gap-10 lg:gap-10 px-5 w-[100%] mt-5 md:mt-10 lg:mt-[10px]">
-          <div className="lg:w-[100%] sm:mt-5 lg:mt-[180px] font-roboto ">
+          <div className="lg:w-[100%] sm:mt-5 lg:mt-[180px] font-roboto max-sm:mt-10 ">
             <h1 className="text-center text-[20px] md:text-[22px] lg:text-[38px] font-merriweather py-4 md:py-0 lg:py-5 ">
               Focusing on the Boy Child
             </h1>
@@ -35,19 +38,19 @@ export const Home = () => {
       </div>
 
       {/* Values */}
-      <div className="sm:ml-0 md:ml-[10px]  lg:ml-0">
-        <div className="mt-10">
-          <div className="flex max-sm:flex-col max-md:flex-col sm:mt-0 gap-0 md:gap-1 lg:gap-1 lg:mt-0 lg:pt-1 px-0 lg:py-5">
+      <div className="sm:ml-0 md:ml-[10px] lg:ml-0  backdrop-opacity-10 backdrop-invert bg-white/50">
+        <div className="max-sm:mt-10">
+          <div className="flex max-sm:flex-col md:flex-row-reverse xl:flex-row sm:mt-0 gap-0 md:gap-1 lg:gap-1 lg:mt-0 lg:pt-1 px-0 lg:py-5">
             <div className="lg:w-[1000px] md:mt-[70px] lg:mt-[10px] md:ml-2 px-5">
               <video src={videoBg2} controls muted />
             </div>
 
             <div className="max-sm:py-5 lg:py-10  md:mt-0">
-              <h1 className="font-merriweather sm:text-[20px] md:text-[30px] lg:text-[35px] text-center  lg:mt-[9px]">
+              <h1 className="font-merriweather sm:text-[20px] md:text-[30px] lg:text-[35px] text-center lg:mt-[9px]">
                 {" "}
                 Our privious projects
               </h1>
-              <p className="md:w-[369px] lg:w-[80%] box shadow-lg max-sm:mt-4 max-sm:px-5 py-2 lg:py-5">
+              <p className="md:w-[369px] lg:w-[80%] box shadow-lg max-sm:mt-4 max-sm:px-5 py-2 lg:py-5  ">
                 <ul className="font-roboto px-3">
                   <li>
                     Skill acquisition program in 'shoe making and leather
@@ -72,6 +75,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <Testimonia />
       <Footer />
     </div>
   );

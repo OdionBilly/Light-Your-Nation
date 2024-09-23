@@ -1,13 +1,13 @@
 import React from 'react'
+import AutoPlay from './Autoplay';
 
-export const Testimonia = ( {text, handleClick} ) => {
+export const Testimonia = () => {
   return (
-    <div>
-      <button 
-      onClick={handleClick}
-      className="bg-[#2b2ba5] px-4 py-2 text-[#fff] cursor-pointer hover:bg-[#4f4fee]">
-        {text}
-      </button>
+    <div className='overflow-hidden bg-desktop-image opacity-100  '>
+      <div className='px-10 py-10'>
+        <h1 className='text-[#fff] text-center text-[30px] font-merriweather'>Our Testimonia</h1>
+      </div>
+      <AutoPlay/>
     </div>
   );
 }

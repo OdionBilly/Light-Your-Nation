@@ -3,7 +3,7 @@ import videoBg from "../assets/vid3.mp4"
 
 export const Values = () => {
   return (
-    <div className="bg-[#070737] md:p-1">
+    <div className="bg-[#070737] md:p-1 mt-[90px]">
       <div className="flex max-sm:flex-col max-md:flex-col sm:mt-0  lg:mt-0 lg:pt-1 px-0 lg:py-5">
         <div className="lg:w-[1000px] md:mt-[90px] lg:mt-[10px] md:ml-5">
           <video src={videoBg} autoPlay loop muted />

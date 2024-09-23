@@ -7,7 +7,7 @@ export const Objective = () => {
         <div className="flex max-sm:flex-col justify-between md:flex-row-reverse lg:flex-row  md:gap-10 lg:gap-10 px-5 w-[100%] mt-5 md:mt-10 lg:mt-[10px]">
           <div className="lg:w-[100%] sm:mt-5 lg:mt-[180px] font-roboto ">
             <h1 className="text-center text-[20px] md:text-[22px] lg:text-[38px] font-merriweather py-4 md:py-0 lg:py-5 ">
-              Boy Child Advocay
+              Boy Child Advocacy
             </h1>
             <p className="shadow-lg px-2 md:px-2 lg:px-[10px] lg:ml-1 border-2 py-10 md:py-0 md:w-[370px] lg:w-[100%] max-sm:ml-[-10px]">
               Our Mission and vision has driven us to the right path, “In the
@@ -46,7 +46,7 @@ export const Objective = () => {
         <div className=" mt-10 lg:ml-5">
           <div className="py-5">
             <h1 className=" text-[20] md:text-[22px] lg:text-[30px] font-merriweather">
-              Youth Empowerment and Drugs Eradigation{" "}
+              Youth Empowerment and Drugs Eradication{" "}
             </h1>
 
             <p className="px-2 font-roboto lg:w-[50%] py-5 shadow-lg border-2">
