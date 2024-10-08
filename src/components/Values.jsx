@@ -6,7 +6,17 @@ export const Values = () => {
     <div className="bg-[#070737] md:p-1 mt-[90px]">
       <div className="flex max-sm:flex-col max-md:flex-col sm:mt-0  lg:mt-0 lg:pt-1 px-0 lg:py-5">
         <div className="lg:w-[1000px] md:mt-[90px] lg:mt-[10px] md:ml-5">
-          <video src={videoBg} autoPlay loop muted />
+          {/* <video src={videoBg} autoPlay loop muted /> */}
+          <iframe
+            width="660"
+            height="415"
+            src="https://www.youtube.com/embed/I8_RJZa_rW8?si=LdJRNXQlahDCkefb"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </div>
 
         <div className="max-sm:py-5 lg:py-10 bg-[#070737] md:mt-0">
