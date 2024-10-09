@@ -41,8 +41,15 @@ export const Home = () => {
       <div className="sm:ml-0 md:ml-[10px] lg:ml-0  backdrop-opacity-10 backdrop-invert bg-white/50">
         <div className="max-sm:mt-10">
           <div className="flex max-sm:flex-col md:flex-row-reverse xl:flex-row sm:mt-0 gap-0 md:gap-1 lg:gap-1 lg:mt-0 lg:pt-1 px-0 lg:py-5">
-            <div className="lg:w-[1000px] md:mt-[70px] lg:mt-[10px] md:ml-2 px-5">
-              <video src={videoBg2} controls muted />
+            <div className="lg:w-[1000px] md:mt-[70px] lg:mt-[10px] md:ml-2 px-5 max-sm:w-[330px] overflow-hidden">
+              {/* <video src={videoBg2} controls muted /> */}
+              <div className=''>
+                <iframe
+                  src="https://www.youtube.com/embed/I8_RJZa_rW8?si=LdJRNXQlahDCkefb"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
 
             <div className="max-sm:py-5 lg:py-10  md:mt-0">
