@@ -1,5 +1,6 @@
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
+import image1 from "../assets/slider-image/image-1.jpg"
 import "react-awesome-slider/dist/styles.css";
 
 export const Hero = () => {
@@ -15,7 +16,7 @@ export const Hero = () => {
             interval={3000}
             // animation="slide"
           >
-            <div data-src="/src/assets/slider-image/image-1.jpg" />
+            <div data-src={image1} />
             <div data-src="/src/assets/slider-image/image-2.jpg" />
             <div data-src="/src/assets/slider-image/image-3.jpg" />
             <div data-src="/src/assets/slider-image/image-4.jpg" />
