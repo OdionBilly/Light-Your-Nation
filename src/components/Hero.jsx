@@ -1,6 +1,18 @@
 import AwesomeSlider from "react-awesome-slider";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import image1 from "../assets/slider-image/image-1.jpg"
+import image2 from "../assets/slider-image/image-2.jpg";
+import image3 from "../assets/slider-image/image-3.jpg";
+import image4 from "../assets/slider-image/image-4.jpg";
+import image5 from "../assets/slider-image/image-5.jpg";
+import image6 from "../assets/slider-image/image-6.jpg";
+import image7 from "../assets/slider-image/image-7.jpg";
+
+
+
+
+
+
 import "react-awesome-slider/dist/styles.css";
 
 export const Hero = () => {
@@ -17,12 +29,12 @@ export const Hero = () => {
             // animation="slide"
           >
             <div data-src={image1} />
-            <div data-src="/src/assets/slider-image/image-2.jpg" />
-            <div data-src="/src/assets/slider-image/image-3.jpg" />
-            <div data-src="/src/assets/slider-image/image-4.jpg" />
-            <div data-src="/src/assets/slider-image/image-5.jpg" />
-            <div data-src="/src/assets/slider-image/image-6.jpg" />
-            <div data-src="/src/assets/slider-image/image-7.jpg" />
+            <div data-src={image2} />
+            <div data-src={image3} />
+            <div data-src={image4} />
+            <div data-src={image5} />
+            <div data-src={image6}/>
+            <div data-src={image7} />
           </AutoplaySlider>
 
           {/* <div className="text-left w-full py-4 pt-10 pl-12">
