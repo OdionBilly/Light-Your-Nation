@@ -1,6 +1,7 @@
 import React from 'react'
 // import videoBg from "../assets/vd.mp4";
 import videoBg2 from "../assets/vid2.mp4";
+import communityimage from "../assets/community-image-1.jpeg"
 import { Navbar } from '../components/Navbar'
 import { Hero } from '../components/Hero'
 import { Cart } from '../components/Cart'
@@ -32,7 +33,7 @@ export const Home = () => {
           </div>
 
           <div className="w-[100%] md:mt-9">
-            <img src="/src/assets/community-image-1.jpeg" alt="" />
+            <img src={communityimage} alt="" />
           </div>
         </div>
       </div>
