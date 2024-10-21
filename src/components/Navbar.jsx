@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/logo.jpeg"
 // import { useState } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 
@@ -10,7 +11,7 @@ export const Navbar = () => {
       <nav className="fixed top-0 left-0 right-0  w-full z-30 flex flex-wrap justify-between items-center font-bold text-[15px] py-6 max-sm:px-10 px-[100px] bg-[#070737] text-[#f1f1f1] overflow-hidden">
         <img
           className="w-[40px] lg:w-[50px] rounded-full"
-          src="/src/assets/logo.jpeg"
+          src={logo}
           alt=""
         />
         <ul

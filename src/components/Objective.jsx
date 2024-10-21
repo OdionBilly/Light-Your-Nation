@@ -1,4 +1,6 @@
 import React from 'react'
+import boyimage from "../assets/community-image-1.jpeg";
+import Widowimage from "../assets/widows-image-3.jpeg"
 
 export const Objective = () => {
   return (
@@ -20,7 +22,7 @@ export const Objective = () => {
           </div>
 
           <div className="w-[100%] md:mt-9">
-            <img src="/src/assets/community-image-1.jpeg" alt="" />
+            <img src={boyimage}alt="" />
           </div>
         </div>
 
@@ -39,7 +41,7 @@ export const Objective = () => {
             </p>
           </div>
           <div className="w-[100%] mt-10 md:mt-8">
-            <img src="/src/assets/widows-image-3.jpeg" alt="" />
+            <img src={Widowimage} alt="" />
           </div>
         </div>
 

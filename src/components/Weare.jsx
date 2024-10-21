@@ -1,4 +1,6 @@
-
+import Aboutimage from "../assets/slide-image-1.png"
+import doctorimage from "../assets/doctors..png";
+import childimage from "../assets/child.jpg";
 export const Weare = () => {
 
   return (
@@ -21,7 +23,7 @@ export const Weare = () => {
         </p>
         <div className="w-[100%] shadow-lg mt-0 md:mt-[50px] lg:mt-0">
           <img
-            src="/src/assets/slide-image-1.png"
+            src={Aboutimage}
             className="lg:size-[90%]"
             alt=""
           />
@@ -31,7 +33,7 @@ export const Weare = () => {
       <div className="overflow-hidden flex flex-col md:flex-col lg:flex-row gap-10">
         <div className="overflow-hidden ml-[10px] lg:ml-[80px] mt-10 md:mt-5 lg:mt-10 flex flex-col md:flex-row">
           <img
-            src="/src/assets/doctors..png"
+            src={doctorimage}
             className="size-[380px] lg:size-[400px]"
             alt=""
           />
@@ -64,7 +66,7 @@ export const Weare = () => {
           </div>
 
           <img
-            src="/src/assets/child.jpg"
+            src={childimage}
             className="w-[370px] md:w-[410px] lg:w-[350px] mt-5"
             alt=""
           />
