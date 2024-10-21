@@ -1,5 +1,6 @@
 import React from 'react'
 import { BiAccessibility , BiBuilding, BiHeart} from 'react-icons/bi';
+import heroimage from '../assets/Hero-image-2.png'
 
 export const Cart = () => {
   return (
@@ -20,7 +21,7 @@ export const Cart = () => {
           </div>
 
           <div className="w-[100%] md:mt-10 lg:mt-0 opacity-2 ">
-            <img src="/src/assets/Hero-image-3.png" className="" alt="" />
+            <img src={heroimage} className="" alt="" />
           </div>
         </div>
       </div>
