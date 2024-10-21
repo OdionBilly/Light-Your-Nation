@@ -21,7 +21,7 @@ export const Hero = () => {
   return (
     <div className="">
       <div className="">
-        <div className="w-[100%] sm:h-[500px] md:h-[400px] xl:h-[700px] overflow-hidden ">
+        <div className="w-[100%] sm:h-[500px] md:h-[400px] xl:h-[750px] overflow-hidden ">
           <AutoplaySlider
             play={true}
             cancelOnInteraction={false} // should stop playing on user interaction
